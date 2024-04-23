@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+}
+
+.nav-bar{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 300;
+    color: white;
+    filter: brightness(100%);
+}
+.logo img{
+    margin: 5px;
+    filter: brightness(100%);
+}
+
+.home{
+    color: green;
+}
+.container{ 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 21, 21);
+}
+.profile{
+    border-radius: 50%;
+}
+button {
+    background: rgba(255, 255, 255, 0.3);
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h2 { font-family: "Allura", cursive;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: end; 
+}
+
+.text-container{
+    display: flex;
+    color: white;
+    background-image: url(./assets/hacker.avif);
+    background-size: 1260px;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+.text{
+    
+    color: rgb(225, 170, 170);
+}
+.red{
+    color: red;
+}
+.hobbiesTag{
+    text-align: center;
+    color:  rgb(140, 144, 136); 
+    padding: 20px; 
+    margin: 0px;
+    
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.hobbiesText{
+    color: rgb(44, 175, 175);
+    font-family: sans-serif;
+    margin-top: 100px;
+    text-align: center;   
+}
+.pic img{
+    float: left;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px 40px;
+    margin-right: 10px;
+    margin-left: 40px;
+    filter: grayscale(0%);
+    box-shadow: 10px 10px 30px rgb(165, 59, 59);
+    
+}
+#right{
+    float: right;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.pic img:hover{
+    filter: grayscale(100%);
+    rotate: 20deg;
+    transition-duration: 0.6s;
+}
+
+li a:hover{
+    filter: brightness(50%);
+}
+
+.logo img:hover{
+    filter: brightness(50%);
+}
+
+button a:hover{
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .hobbiesText{
+        text-align: center;
+    }
+
+    #hobbiesText{
+        text-align: center;
+    }
+
+    .pic>img{
+        align-content: center;
+    }
+}
