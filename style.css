@@ -128,16 +128,13 @@ button a:hover{
     color: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .hobbiesText{
-        text-align: center;
-    }
-
-    #hobbiesText{
         text-align: center;
     }
 
     .pic>img{
         align-content: center;
+        float: none;
     }
 }
