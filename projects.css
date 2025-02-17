@@ -34,7 +34,7 @@
     min-height: 100vh;
     justify-content: space-around;
     align-items: center;
-    background-image: url(./assets/bc.jpg);
+    background-image: url(./bc.jpg);
     background-position: center;
     background-size: cover;
 }
